@@ -20,35 +20,41 @@
     </head>
     <body>
         <p>
-            <fieldset>
-                <legend>Links to other pages</legend>
-                    <p>
-                        <ul>
-                            <li>Home Page</li>
-                            <li>Quiz</li>
-                            <li>Survey</li>
-                        </ul>
-                    </p>
-            </fieldset>
-        </p>
-        <h1>Welcome to my site!</h1>
+            <form>
+                <fieldset>
+                    <legend>Links to other pages</legend>
+                        <p>
+                            <ul>
+                                <li><a href="HomePage/index.html">Home Page</a></li>
+                                <li><a href="Quiz/quiz.html">Quiz</a></li>
+                                <li><a href="Survey/survey.html">Survey</a></li>
+                            </ul>
+                        </p>
+                </fieldset>
+                </p>
+                <h1>Welcome to my site!</h1>
 
-        <p><em>On this site you can take our short quiz and then you can fill out our survey</em></p>
+                <p><em>On this site you can take our short quiz and then you can fill out our survey</em></p>
 
-        <p><strong>The only way that we can get bigger is by hearing what you have to say!</strong></p>
+                <p><strong>The only way that we can get bigger is by hearing what you have to say!</strong></p>
 
-        <h2>Log In Below</h2>
+                <h2>Log In Below</h2>
 
-        <fieldset>
-            <legend>User Information</legend>
-            <ul>
-                <li>User Name</li>
-                <li>Password</li>
-                <li>User Identification Number</li>
-                <li>Today's Date</li>
-            </ul>
-            Submit Button
-        </fieldset>
+                <fieldset>
+                    <legend>User Information</legend>
+                    <ul>
+                        <li><label for="userName">User Name</label>
+                        <input type="text" id="username" name="user.username"></li>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="user.password"></li>
+                        <li><label for="useridnumber">User ID Number</label>
+                        <input type="text" id="useridnumber" name="user.useridnumber"></li>
+                        <li><label for="date">Date</label>
+                        <input type="text" id="date" name="user.date"></li>
+                    </ul>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
     </body>
 </html>
 
